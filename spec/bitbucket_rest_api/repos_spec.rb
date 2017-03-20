@@ -85,7 +85,7 @@ describe BitBucket::Repos do
     before do
       expect(repo).to receive(:request).with(
         :get,
-        '/1.0/repositories/mock_username/mock_repo',
+        '/2.0/repositories/mock_username/mock_repo',
         {},
         {}
       )
