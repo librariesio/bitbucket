@@ -2,7 +2,6 @@ require 'simplecov'
 SimpleCov.start
 
 require 'webmock/rspec'
-require 'pry'
 require 'vcr'
 
 require 'bitbucket_rest_api'
